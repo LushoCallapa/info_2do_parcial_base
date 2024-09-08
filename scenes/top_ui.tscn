@@ -6,7 +6,7 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_yrpvj"]
 font = ExtResource("2_pei76")
-font_size = 24
+font_size = 20
 
 [sub_resource type="LabelSettings" id="LabelSettings_8bjlm"]
 font = ExtResource("2_pei76")
@@ -51,7 +51,11 @@ text = "00"
 label_settings = SubResource("LabelSettings_8bjlm")
 horizontal_alignment = 1
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer"]
+[node name="goal_score_label" type="Label" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 5
+text = "000
+MISION"
+label_settings = SubResource("LabelSettings_yrpvj")
+horizontal_alignment = 1

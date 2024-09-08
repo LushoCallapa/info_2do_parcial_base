@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bewnenb8nlyue"]
+
+[ext_resource type="Texture2D" uid="uid://cdunkljd6up72" path="res://assets/bottom_ui.png" id="1_668ai"]
+[ext_resource type="Script" path="res://scripts/bottom_ui.gd" id="2_roys7"]
+[ext_resource type="FontFile" uid="uid://b25431rxog83j" path="res://assets/fonts/Kenney Blocks.ttf" id="2_seouo"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nmhef"]
+font = ExtResource("2_seouo")
+font_size = 48
+font_color = Color(0.572549, 0.145098, 0.0196078, 1)
+
+[node name="bottom_ui" type="TextureRect"]
+offset_top = 928.0
+offset_right = 576.0
+offset_bottom = 1020.0
+texture = ExtResource("1_668ai")
+script = ExtResource("2_roys7")
+
+[node name="level_label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 4.0
+offset_right = 524.0
+offset_bottom = 76.0
+text = "aaaaa"
+label_settings = SubResource("LabelSettings_nmhef")
+horizontal_alignment = 1
